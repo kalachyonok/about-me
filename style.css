@@ -55,6 +55,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
+  padding: 0px;
 }
 
 .header-nav-link {
@@ -96,23 +98,22 @@ p {
   align-items: flex-end;
 }
 
-.name-1 {
+.personal-name {
   width: 180px;
   font-size: 4.8rem;
 }
 
-.name-2 {
+.wokring-name {
   width: 155px;
   font-size: 1.8rem;
   padding-bottom: 10px;
 }
 
-.name-3 {
+.languages {
   font-size: 1.6rem;
   color: #828282;
   padding-top: 12px;
 
-  /* ! End here!!! 🧡🧡🧡*/
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
 }
@@ -129,7 +130,7 @@ p {
     gap: 23px;
   }
 
-  .name-3 {
+  .languages {
     align-self: flex-end;
     font-size: 2.4rem;
     writing-mode: horizontal-tb;
@@ -138,13 +139,6 @@ p {
 }
 
 /* Photo */
-
-/* .author {
-  max-width: 100%;
-  object-fit: cover;
-
-  margin-top: 50px;
-} */
 
 .author {
   width: 100%;
@@ -166,7 +160,6 @@ p {
 
 .about-me {
   width: 100%;
-  /* background-color: #f6f6f6; */
 
   display: flex;
   flex-direction: column;
@@ -246,7 +239,6 @@ p {
 
 .contacts {
   width: 100%;
-  /* background-color: #f6f6f6; */
 
   display: flex;
   flex-direction: column;
@@ -259,7 +251,7 @@ p {
   margin-top: 115px;
 }
 
-.contacts-text {
+.subtitle {
   display: flex;
   max-width: 300px;
   font-size: 1.8rem;
@@ -290,12 +282,12 @@ p {
   justify-content: space-between;
 }
 
-.links-items {
+.link-item {
   width: 40px;
   height: 40px;
 }
 
-.contacts-text-2 {
+.contacts-info {
   font-size: 1.4rem;
   color: #828282;
 
@@ -314,11 +306,11 @@ p {
     align-items: center;
   }
 
-  .links-items {
+  .link-item {
     margin-bottom: 40px;
   }
 
-  .contacts-text-2 {
+  .contacts-info {
     font-size: 1.8rem;
   }
 }
